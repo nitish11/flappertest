@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/news');
+mongoose.connect('mongodb://admin:U64VF6qXvwai@localhost/flappertest');
 
 require('./models/Posts');
 require('./models/Comments');

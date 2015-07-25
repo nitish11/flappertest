@@ -6,7 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://admin:bFY2vW_p7b9d@$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/flappertest');
+//mongoose.connect('mongodb://admin:bFY2vW_p7b9d@$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/flappertest');#
+mongoose.connect('mongodb://admin:bh4FVMJkDiLj@nitishapp-nitish11.rhcloud.com:27017/nitishapp');
 
 require('./models/Posts');
 require('./models/Comments');
